@@ -15,10 +15,60 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
-}
-
 /* STYLES */
 /* Write your CSS below */
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+/* General Style */
+body { 
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+/* Header Section */
+header { 
+  height: 500px;
+  background-image: url(../images/apple-pie.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 { 
+  color: white;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
+
+/* Main Section */
+main { 
+  padding: 2rem 4rem;
+}
+
+#recipe-information { 
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+}
+
+#ingredients ul { 
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 20px;
+}
+
+#directions { 
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 20px;
+  padding: 20px;
+}
